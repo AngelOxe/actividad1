@@ -1,0 +1,59 @@
+/* style10.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.calculator-container {
+    border: 1px solid #333;
+    padding: 20px;
+    width: 280px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="number"], 
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Fondo gris sencillo para denotar que no se puede escribir */
+input[readonly] {
+    background-color: #e0e0e0;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.error {
+    color: red;
+    margin: 0;
+    font-size: 14px;
+}

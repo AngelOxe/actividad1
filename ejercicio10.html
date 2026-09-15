@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="css/style10.css">
 </head>
 <body>
-
-
-    <H1>Calculadora</H1>
-
-    <div>
-
-    
-
+    <div class="calculator-container">
+        <h2>Conversor de Celsius a Fahrenheit</h2>
+        
+        <div class="input-group">
+            <label for="celsius">Grados Celsius (°C):</label>
+            <!-- input type="number" ayuda a restringir el ingreso a valores numéricos en navegadores móviles y de escritorio -->
+            <input type="number" id="celsius" placeholder="Ej. 25" step="any">
+        </div>
+        
+        <button id="convertBtn">Convertir</button>
+        
+        <div class="input-group">
+            <label for="fahrenheit">Grados Fahrenheit (°F):</label>
+            <!-- El atributo readonly bloquea la escritura en este campo -->
+            <input type="text" id="fahrenheit" readonly placeholder="Resultado">
+        </div>
+        
+        <!-- Contenedor para mostrar mensajes de validación -->
+        <p id="error-message" class="error"></p>
     </div>
 
-
-    
+    <script src="js/script10.js"></script>
 </body>
 </html>
