@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Edad para Votar</title>
+    <link rel="stylesheet" href="css/style13.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Verificador para Votar</h2>
+        
+        <div class="input-group">
+            <label for="edad">Ingresa tu edad:</label>
+            <input type="number" id="edad" placeholder="Ej. 20" min="0" step="1">
+        </div>
+        
+        <button id="verifyBtn">Verificar</button>
+        
+        <div class="input-group">
+            <label for="resultado">Estado:</label>
+        
+            <input type="text" id="resultado" readonly placeholder="Resultado">
+        </div>
+        
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <script src="js/script13.js"></script>
+</body>
+</html>

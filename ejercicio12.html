@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Pesos a Dólares</title>
+    <link rel="stylesheet" href="css/style12.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Conversor de MXN a USD</h2>
+        
+        <div class="input-group">
+            <label for="mxn">Pesos Mexicanos (MXN):</label>
+            <input type="number" id="mxn" placeholder="Ej. 500" step="any">
+        </div>
+        
+        <button id="convertBtn">Convertir</button>
+        
+        <div class="input-group">
+            <label for="usd">Dólares (USD):</label>
+            <input type="text" id="usd" readonly placeholder="Resultado">
+        </div>
+        
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <script src="js/script12.js"></script>
+</body>
+</html>

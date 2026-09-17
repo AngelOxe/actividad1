@@ -1,0 +1,45 @@
+
+body{
+
+    background-color: black;
+
+}
+
+
+H1{
+
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+
+
+
+.contenedor_ejercicios {
+    display: grid;
+    /* Aquí defines las columnas. '1fr' significa "una fracción" del espacio. */
+    /* Para 2 columnas: */
+    grid-template-columns: repeat(2, 1fr); 
+    
+    /* Si quisieras 3 columnas, cambiarías el 2 por un 3: repeat(3, 1fr); */
+
+    /* gap es el espacio de separación entre los elementos (como los pasillos) */
+    gap: 20px; 
+    
+    /* Opcional: un poco de margen para que no ocupe toda la pantalla de lado a lado */
+    max-width: 800px;
+    margin: 0 auto; /* Esto centra el contenedor entero en la pantalla */
+}
+
+.contenedor_ejercicios a {
+    color: white; /* Hacemos la letra blanca para que se vea */
+    text-decoration: none; /* Le quitamos la rayita de abajo al enlace */
+    background-color: #222; /* Le ponemos un fondo gris oscuro a cada "botón" */
+    padding: 15px; /* Le damos espacio interno para que no esté apretado */
+    text-align: center; /* Centramos el texto dentro del botón */
+    border: 1px solid #555; /* Le ponemos un borde sutil */
+    border-radius: 5px; /* Redondeamos un poquito las esquinas */
+}

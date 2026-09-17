@@ -1,4 +1,4 @@
-// Aseguramos que el DOM esté completamente cargado antes de ejecutar el script
+
 document.addEventListener('DOMContentLoaded', () => {
     const convertBtn = document.getElementById('convertBtn');
     const celsiusInput = document.getElementById('celsius');
@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const errorMessage = document.getElementById('error-message');
 
     convertBtn.addEventListener('click', () => {
-        // Limpiar mensajes de error previos y el campo de resultado
+    
         errorMessage.textContent = '';
         fahrenheitInput.value = '';
 
@@ -27,14 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Realizar el cálculo: F = (C * 9/5) + 32
+        
         const fahrenheit = (celsius * 9 / 5) + 32;
 
-        // Opcional: Redondear a un máximo de 2 decimales para evitar números muy largos,
-        // pero eliminando ceros innecesarios (ej. 77 en vez de 77.00)
         const formatFahrenheit = Number(fahrenheit.toFixed(2));
 
-        // Mostrar el resultado final en la caja readonly concatenando "°F"
         fahrenheitInput.value = `${formatFahrenheit}°F`;
     });
 });

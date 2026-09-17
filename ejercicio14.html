@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Arreglos</title>
+    <link rel="stylesheet" href="css/style14.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Análisis de Números</h2>
+        
+        <div class="input-group">
+            <label for="numeros">Ingresa números separados por comas:</label>
+            
+            <input type="text" id="numeros" placeholder="Ej. 10, 20, 30, 40, 50">
+        </div>
+        
+        <button id="calcularBtn">Calcular</button>
+        
+        <div class="input-group">
+            <label for="mayor">Número mayor:</label>
+            <input type="text" id="mayor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="input-group">
+            <label for="menor">Número menor:</label>
+            <input type="text" id="menor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="input-group">
+            <label for="promedio">Promedio:</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+        
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <script src="js/script14.js"></script>
+</body>
+</html>

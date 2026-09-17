@@ -1,22 +1,34 @@
-#Actividad 1: Programacion web
+# Actividad 1 - Programación Web 
 
-Repositorio con los ejercicios prácticos del Tema 2 de la materia Programación Web (ITO).
+Repositorio correspondiente a la Actividad 1 de la materia de **Programación Web**.
 
-Elaborado por: Ruiz Osante Ángel Yibán
+##  Descripción
 
-#Contenido
+En esta actividad se desarrollaron los ejercicios del 1 al 16 utilizando **HTML**, **CSS** y **JavaScript**. 
 
--Ejercicio 1:
--Ejercicio 2:
--Ejercicio 3:
--Ejercicio 4:
--Ejercicio 5:
--Ejercicio 6:
--Ejercicio 7:
--Ejercicio 8:
--Ejercicio 9:
--Ejercicio 10:
+##  Ejercicios Desarrollados
 
+1. Mi primera página HTML.
+2. Formato de texto.
+3. Enlaces.
+4. Imágenes.
+5. Página personal.
+6. Estructura de una página.
+7. Listas.
+8. Tabla de horario.
+9. Formulario de contacto.
+10. Conversor de Celsius a Fahrenheit.
+11. Conversor de kilómetros a millas.
+12. Conversor de pesos mexicanos a dólares.
+13. Verificación de edad para votar.
+14. Operaciones con arreglos.
 
+##  Tecnologías Utilizadas
 
-
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **Visual Studio Code**
+* **XAMPP**
+* **GitHub**
+* **GitHub Pages**

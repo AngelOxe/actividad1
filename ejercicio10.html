@@ -12,7 +12,6 @@
         
         <div class="input-group">
             <label for="celsius">Grados Celsius (°C):</label>
-            <!-- input type="number" ayuda a restringir el ingreso a valores numéricos en navegadores móviles y de escritorio -->
             <input type="number" id="celsius" placeholder="Ej. 25" step="any">
         </div>
         
@@ -20,11 +19,11 @@
         
         <div class="input-group">
             <label for="fahrenheit">Grados Fahrenheit (°F):</label>
-            <!-- El atributo readonly bloquea la escritura en este campo -->
+            
             <input type="text" id="fahrenheit" readonly placeholder="Resultado">
         </div>
         
-        <!-- Contenedor para mostrar mensajes de validación -->
+        
         <p id="error-message" class="error"></p>
     </div>
 
