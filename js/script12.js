@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-    
+
         const dolares = pesos * tasaDeCambio;
 
         usdInput.value = dolares.toFixed(2);
