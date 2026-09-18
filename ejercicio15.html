@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Estudiantes</title>
+    <link rel="stylesheet" href="css/style15.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Registro de Estudiantes</h2>
+        
+        <div class="input-group">
+            <label for="nombre">Nombre del estudiante:</label>
+            <input type="text" id="nombre">
+        </div>
+
+        <div class="input-group">
+            <label for="calificacion">Calificación:</label>
+            <input type="number" id="calificacion" step="any">
+        </div>
+        
+        <button id="agregarBtn">Agregar estudiante</button>
+        <button id="calcularBtn">Calcular</button>
+        
+        <div class="input-group">
+            <label for="promedio">Calificación promedio:</label>
+            <input type="text" id="promedio" readonly>
+        </div>
+
+        <div class="input-group">
+            <label for="maximo">Estudiante con calificación más alta:</label>
+            <input type="text" id="maximo" readonly>
+        </div>
+
+        <div class="input-group">
+            <label for="minimo">Estudiante con calificación más baja:</label>
+            <input type="text" id="minimo" readonly>
+        </div>
+        
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <script src="js/script15.js"></script>
+</body>
+</html>

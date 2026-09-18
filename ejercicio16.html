@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con Funciones Flecha</title>
+    <link rel="stylesheet" href="css/style16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Calculadora Básica</h2>
+        
+        <div class="input-group">
+            <label for="numero1">Número 1:</label>
+            <input type="text" id="numero1">
+        </div>
+
+        <div class="input-group">
+            <label for="numero2">Número 2:</label>
+            <input type="text" id="numero2">
+        </div>
+        
+        <div class="button-group">
+            <button onclick="calcularOperacion('suma')">Sumar</button>
+            <button onclick="calcularOperacion('resta')">Restar</button>
+            <button onclick="calcularOperacion('multiplicacion')">Multiplicar</button>
+            <button onclick="calcularOperacion('division')">Dividir</button>
+        </div>
+        
+        <div class="input-group">
+            <label for="resultado">Resultado:</label>
+            <input type="text" id="resultado" readonly>
+        </div>
+    </div>
+
+    <script src="js/script16.js"></script>
+</body>
+</html>
