@@ -30,4 +30,4 @@ const agregarElemento = () => {
     }
 };
 
-botonAgregar.addEventListener('click', agregarElemento);
+botonAgregar.addEventListener('click', agregarElemento);w
